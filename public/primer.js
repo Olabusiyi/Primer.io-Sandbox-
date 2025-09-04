@@ -6,7 +6,7 @@ const form = document.getElementById('payment-form');
 const buttonText = submitBtn.querySelector('.button-text');
 const checkoutContainer = document.getElementById('checkout-container');
 
-// State management
+// State mgt
 let isProcessing = false;
 let checkoutInstance = null;
 
@@ -74,7 +74,7 @@ form.addEventListener('submit', async (e) => {
     // Clear placeholder content
     checkoutContainer.innerHTML = '';
 
-    // Mount Primer Universal Checkout
+    // Primer Universal Checkout
     checkoutInstance = Primer.showUniversalCheckout(clientToken, {
       container: '#checkout-container',
       onCheckoutComplete({ payment }) {
