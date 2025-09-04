@@ -13,14 +13,14 @@ PRIMER_API_KEY=your_primer_api_key_here
 PORT=3000
 ```
 
-### 3. Get Your Primer API Key
+### Get Your Primer API Key
 1. Sign up at [Primer.io](https://sandbox-dashboard.primer.io/)
 2. Go to your dashboard
 3. Navigate to Developers section then **API Keys**
 4. Create & Copy your **Sandbox API Key**
 5. Paste it in your `.env` file
 
-### 4. Run the Application
+###  Run the Application
 ```bash
 # Start the development server
 npm run dev
